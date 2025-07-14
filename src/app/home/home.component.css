@@ -1,0 +1,32 @@
+table {
+
+    background-color: rgb(255, 255, 255);
+width: 100%;
+padding: 1em;
+}
+
+td {
+padding: 1em;
+text-align: center;
+
+}
+
+caption{
+
+         color: rgb(7, 50, 0);
+     font-size: 2em;
+     margin-top: 2em;
+     margin-bottom: 1em;
+     font-weight: bold;
+}
+
+th {
+color: rgb(0, 11, 52);
+text-decoration-line: underline;
+cursor: pointer;
+font-weight: bold;
+ font-size: 1.3em;
+text-align: center;
+
+
+}

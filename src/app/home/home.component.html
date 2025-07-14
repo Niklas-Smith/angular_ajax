@@ -1,3 +1,19 @@
-<h2>Ramschema</h2>
 
+<table>
+    <caption>Kurser Ramschema</caption>
+<thead>
+<tr>
+<th (click)="sortCode()">kurs_kod</th>
+<th (click)="sortName()">kurs_namn</th>
+<th (click)="sortProg()">Progression</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let Ramschema of CourseInfo">
+<td>{{Ramschema.code }}</td>
+<td>{{Ramschema.coursename }}</td>
+<td>{{Ramschema.progression }}</td>
+</tr>
+</tbody>
+</table>
 
